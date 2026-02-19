@@ -1,1 +1,2 @@
 # Sistema-de-Gest-o-de-Invent-rio
+criar um sistema que registre todo inventario de uma empresa , que possibilite cadastrar novos itens e excluir, que ytenha auditoria de todos os itens, entrada, saida e onde esta o intem em questao.
