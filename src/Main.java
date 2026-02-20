@@ -8,7 +8,7 @@ public class Main {
     
  //exibir no terminal
      System.out.println("Item: " + notebook.getNome());
-     System.out.println("Movimentação tipo: " + mov.tipo);    
+     System.out.println("Movimentação tipo: " + mov.getTipo());    
 
     }
 }
