@@ -11,7 +11,7 @@ public class Movimentacao {
 
     //construtor
 
-    public movimentacao (int idMovimentacao, int idItem, String tipo, int quantidade,
+    public Movimentacao (int idMovimentacao, int idItem, String tipo, int quantidade,
         String data, String motivo ) {
             this.idMovimentacao = idMovimentacao;
             this.idItem = idItem;
@@ -23,7 +23,7 @@ public class Movimentacao {
         }
 
     public int getIdMovimentacao() { return idMovimentacao; }
-    public void setIdMovimentacao(int idMovimentacao) { this.idMovidMovimentacao = idMovimentacao; }
+    public void setIdMovimentacao(int idMovimentacao) { this.idMovimentacao = idMovimentacao; }
     
     public int getIdItem() { return idItem; }
     public void setIdItem(int idItem) { this.idItem = idItem; }
