@@ -14,14 +14,20 @@ public class Item {
         this.preco = preco;
     }
 
-    public String getNome() { return nome;}
-    public void setNome(String nome){ this.nome = nome;}
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
 
-    public int getQuantidade() { return quantidade;}
-    public void setQuantidade(int quantidade){ this.quantidade = nome;}
+    public String getNome() { return nome; }
+    public void setNome(String nome){ this.nome = nome; }
 
-    public String getLocalizacao() {return localizacao;}
-    public void setLocalizacao(String localizacao){ this.localizacao = localizacao;}
+    public int getQuantidade() { return quantidade; }
+    public void setQuantidade(int quantidade){ this.quantidade = quantidade; }
+
+    public String getLocalizacao() {return localizacao; }
+    public void setLocalizacao(String localizacao){ this.localizacao = localizacao; }
+
+    public double getPreco() { return preco; }
+    public void setPreco(double preco) { this.preco = preco; }
 
     }
     
